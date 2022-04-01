@@ -1,0 +1,333 @@
+
+    
+    
+  
+
+    #main{
+        display: flex;
+        border: 1px solid black;
+        height: 60px;
+        font-weight: 100;
+        padding-top: 20px;
+        padding-left: 30px;
+       
+    }
+    #options{
+        display: flex;
+       gap: 40px;
+       margin-top: -85px;
+       margin-left: 200px;
+      font-size: x-small;
+    }
+    #search{
+       margin-left: 900px; 
+       margin-top: -30px;
+       
+    }
+    #accnt{
+       
+       margin-left: 1100px;
+       width: 150px;
+       border: 0ch;
+       background-color: transparent;
+     
+    
+   }
+    #sel{
+        margin-top: -30px;
+    }
+    #lav{
+       height: 30px;
+       margin-left: 1250px;
+      
+    }
+    #hearts{
+        margin-top: -25px;
+    }
+    #cart{
+        height: 30px;
+       margin-left: 1300px;   
+    }
+    #bag{
+        margin-top: -35px;  
+    }
+    #title{
+        margin-left: 50px;
+        width: 1400px;
+    }
+
+
+
+
+
+    #one{
+        width: 1500px;
+        height: 900px;
+    }
+    #head{
+        margin-top:100px
+    }
+    #second{
+        width: 800px;
+    }
+    #third{
+        width: 800px;
+    }
+    #two{
+        display: flex;
+        height: 900px;
+        margin-top: 80px;
+    }    
+    #caption{
+      margin-top: -300px;
+      margin-left: 100px;
+      color: whitesmoke;
+      font-family: freight-big-pro, sans-serif;
+      font-size: larger;
+    }
+    #caption2{
+       margin-top: -100px;
+      margin-left: 1000px;
+      color:whitesmoke;
+      font-family: freight-big-pro, sans-serif;
+      font-size: larger; 
+    }
+    #selection{
+        background-color: transparent;
+        color: white;
+       border-top: 0ch;
+       border-left: 0ch;
+       border-right: 0ch;
+       margin-left: 200px;
+     
+      
+    }
+    #buttons{
+        margin-top: -25px;
+    }
+    #selection2{
+        background-color: transparent;
+        color: white;
+       border-top: 0ch;
+       border-left: 0ch;
+       border-right: 0ch;
+       margin-left: 50px;
+    }
+    #buttons2{
+        margin-top: -25px;
+    }
+    #three{
+        display: flex;
+        height: 900px;
+        margin-top: 210px;
+       
+    }
+    #fourth{
+        width: 750px;  
+    }
+    #fifth{
+        width: 753px;  
+
+    }
+    #sixth{
+        width: 750px;   
+    }
+    #seventh{
+        width: 753px; 
+    }
+    #four{
+        display: flex;
+        margin-top:136px;
+        margin-left: -100px;
+    }
+    #mid{
+        color: #000;
+        margin-left: -1100px;
+        font-family: freight-big-pro, Times, serif;
+        font-weight: 100;
+    }
+    #middle{
+        width: 1000px;
+        margin-top: -90px;
+        margin-left: 400px;
+       
+       
+      
+    }
+    #wom{
+        width: 200px;
+        height: 50px;
+    }
+    #me{
+        width: 200px;
+        height: 50px;   
+    }
+    #gir{
+        width: 200px;
+        height: 50px;
+    }
+    #bo{
+        width: 200px;
+        height: 50px;
+    }
+    #wom:hover{
+        background-color:gray;
+        color: white;
+    }
+    #me:hover{
+        background-color:gray;
+        color: white;
+    }
+    #gir:hover{
+        background-color:gray;
+        color: white;
+    }
+    #bo:hover{
+        background-color:gray;
+        color: white;
+    }
+    #img2{
+        margin-top: 40px;
+        margin-left: -200px;
+        
+    }
+  #line1{
+      width: 1550px;
+  }
+  #poster{
+      color: rgb(1,1,1);
+      width: 400px;
+      margin-left: 940px;
+      margin-top: -300px;
+      font-family: freight-big-pro, Times, serif;
+     
+  }
+  #poster2{
+      color: rgb(56,69,74);
+      width: 400px;
+      font-family:soleil, Helvetica, Arial, sans-serif;
+      margin-left: 940px;
+  }
+  #foot{
+      background-color: rgb(240,187,102);
+      color: black;
+      margin-top: 100px;
+      width: 1550px;
+      margin-left: -200px;
+      height: 800px;
+      display: flex;
+      gap: 80px;
+      padding-top: 50px;
+     
+  }
+  #pic1{
+      width: 400px;
+      height: 500px;
+      margin-left: 80px;
+  }
+  #pic2{
+      width: 400px;
+      height: 500px;
+  }
+  #pic3{
+      width: 400px;
+      height: 500px;
+      
+  }
+  #name1{
+      display: flex;
+      color: black;
+      margin-left: -150px;
+      margin-top: -300px;
+      gap: 250px;
+      margin-left: 40px;
+  }
+  #f1{
+      
+      font-family: soleil, sans-serif;
+      font-size: 17px;
+  }
+  #f2{
+      
+      font-family: soleil, sans-serif;
+      font-size: 17px;
+  }
+  #f3{
+      
+      font-family: soleil, sans-serif;
+      font-size: 17px;
+  }
+  #pic4{
+      width: 400px;
+      height: 500px;
+      margin-left: 80px;
+  }
+  #pic5{
+      width: 400px;
+      height: 500px;
+  }
+  #pic6{
+      width: 400px;
+      height: 500px;
+      
+  }
+  #foot2{
+    background-color: rgb(240,187,102);
+    height: 600px;
+    margin-left: -200px;
+    width: 1550px;
+   display: flex;
+   gap: 80px;
+
+  }
+  #name2{
+  display: flex;
+      color: black;
+      margin-left: -150px;
+      margin-top: -300px;
+      gap: 250px;
+      margin-left: 40px;
+      margin-top: -90px;
+    }
+    #f4{
+      
+      font-family: soleil, sans-serif;
+      font-size: 17px;
+  }
+  #f5{
+      
+      font-family: soleil, sans-serif;
+      font-size: 17px;
+  }
+  #f6{
+      
+      font-family: soleil, sans-serif;
+      font-size: 17px;
+  }
+  #more{
+      color: black;
+      font-family: freight-big-pro, Times, serif;
+      font-weight: 100;
+      font-size: larger;
+      margin-top: 100px;
+      margin-left: 400px;
+  }
+  #b1{
+      display: flex;
+      margin-left: -300px;
+     
+  }
+  #end1{
+      color: black;
+  }
+  #low1{
+      display: flex;
+  }
+  #twitt{
+      width: 20px;
+  }
+  #h{
+      background-color: black;
+  }
+
+ 

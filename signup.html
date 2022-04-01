@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="styles/signup.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Signup</title>
+    </head>
+<style>
+    form {
+    width: 300px;
+    margin: auto;
+    margin-top: 80px;
+}
+input[type="text"], input[type="password"],input[type="number"], input[type="submit"] {
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    display: grid;
+    margin: 30px;
+}
+#up{
+    background-color: black;
+    color: white;
+}
+#sg{
+    text-align: center;
+}
+</style>
+    <body>
+        <div id="he">
+        <h1 id="sg">SIGN UP</h1>
+    </div>
+        <div id="signup-form-div">
+
+            <form>
+                <input id="email" type="text" placeholder="Enter email">
+                <input id="name" type="text" placeholder="Enter User Name">
+                <input id="pass" type="password" placeholder="Enter Password">
+                <input id="num" type="number" placeholder="Enter number">
+                <input type="submit" value="Sign Up" id="up">
+            </form>
+
+        </div>
+    </body>
+
+</html>
+
+<script>
+    document.querySelector("form").addEventListener("submit", formSubmit);
+//make function
+    var userStack= JSON.parse(localStorage.getItem("userDataBase")) ||[];
+    function formSubmit(event) {
+        //store in variable
+        event.preventDefault();
+        var email = document.querySelector("#email").value;
+        var pass = document.querySelector("#pass").value;
+        var name = document.querySelector("#name").value;
+        var num = document.querySelector("#num").value; 
+        //console.log(email,pass,name,num)
+//store in object
+        var userData = {
+            emailAdd: email,
+            passWord: pass,
+            userName: name,
+            numBer: num,
+        };
+        //push data in array
+        userStack.push(userData)
+        //console.log(userStack)
+
+        //store in local storeg using stringfy
+
+        localStorage.setItem("userDataBase", JSON.stringify(userStack));
+        alert("SingUp Success");
+        window.location.href ="login.html";
+    
+
+
+    }
+
+</script>
