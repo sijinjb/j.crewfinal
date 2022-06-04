@@ -13,3 +13,11 @@ https://medium.com/@sijinjacob_47580/a-transformation-into-the-j-crew-626244d821
 presentation link
 
 https://drive.google.com/file/d/1bTXY7sGWSQKfBB6M_eHJIKj3hieefoM3/view?usp=sharing
+
+
+
+----------------------------------------------------------------------------------
+
+deployed link
+
+https://warm-gumdrop-e5e0ce.netlify.app
